@@ -2,10 +2,11 @@
 A small image carousel LWC using related files in record
 
 ## Related files
-Uses the ContentDocumentLinks linking the files to the current record.
-Files are filtered (only png, jpg, jpeg) on the extension registered in: ContentDocumentLink.ContentDocument.FileExtension
-Images displayed use the published version Id (ContentDocumentLink.ContentDocument.LatestPublishedVersionId)
-and the standard download URL /sfc/servlet.shepherd/version/download/.
+Uses the **ContentDocumentLinks** linking the files to the current record.
+
+Files are filtered (only png, jpg, jpeg) on the extension registered in: **ContentDocumentLink.ContentDocument.FileExtension**
+
+Images displayed use the published version Id (**ContentDocumentLink.ContentDocument.LatestPublishedVersionId**) and the standard download URL _/sfc/servlet.shepherd/version/download/_.
 
 ## Parameters
 Two input parameters:
